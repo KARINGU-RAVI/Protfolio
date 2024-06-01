@@ -1,0 +1,355 @@
+<!--
+ 
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobiwave/simplefolio/
+  Readme: https://github.com/cobiwave/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+  <!-- Todo: put here your site title -->
+  <title>Ravi Karingu | Developer</title>
+  <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="[karingu_ravi], [ravi], front-end developer" />
+  <!-- Todo: improve your SEO by adding a small description of you -->
+  <meta name="description" content="[Karingu Ravi] | Developer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles.scss" />
+  <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+  <!-- Todo: remove the below script once you finish your portfolio -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+ <style>
+  .contact {
+    background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));
+    background-size: cover;
+    background-position: center; }
+    .contact__form-container {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background: white;
+      padding: 4rem;
+      margin-top: 6rem;
+      max-width: 80rem;
+      text-align: right;
+      width: 95%;
+      border-radius: 5px;
+      margin: 5rem auto 0 auto; }
+
+      .contact__form-field {
+        margin-bottom: 4rem; }
+      
+      .contact__form-label {
+        color: #666;
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        display: block;
+        text-align: left; }
+      .contact__form-input {
+        color: #333;
+        padding: 2rem;
+        width: 100%;
+        border: 1px solid #ebebeb;
+        font-size: 1.6rem;
+        letter-spacing: 0px;
+        background: #f0f0f0;
+        border-radius: 5px;
+        font-weight: 600;
+       }
+        .contact__form-input::placeholder {
+          color: #999;
+          font-weight: 600;
+          font-size: 1.6rem; }
+        .contact__form-input::-webkit-input-placeholder {
+          color: #999;
+          font-weight: 600;
+          font-size: 1.6rem; }
+        .contact__form-input:-ms-input-placeholder {
+          color: #999;
+          font-weight: 600;
+          font-size: 1.6rem; }
+        .contact__form-input::-ms-input-placeholder {
+          color: #999;
+          font-weight: 600;
+          font-size: 1.6rem; }
+        .contact__form-input:-moz-placeholder {
+          opacity: 1;
+          color: #999;
+          font-weight: 600;
+          font-size: 1.6rem; }
+        .contact__form-input::-moz-placeholder {
+          opacity: 1;
+          color: #999;
+          font-weight: 600;
+          font-size: 1.6rem; }
+      .contact__btn {
+        width: 30%;
+        padding: 2rem 4rem;
+        font-size: 1.6rem; }
+        
+ </style>
+</head>
+
+<!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <section id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title load-hidden">
+        Hi, my name is <span class="text-color-main">Karingu Ravi</span>
+        <br />
+        I'm the front-end Developer.
+      </h1>
+      <p class="hero-cta load-hidden">
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
+      </p>
+    </div>
+  </section>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title load-hidden">About me</h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image load-hidden">
+            <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px"
+              src="assets/birthday.jpg" alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info load-hidden">
+            <p class="about-wrapper__info-text">
+              Hello, my name is Karingu Ravi, and I’m a front-end developer. I have a strong command over both front-end
+              technologies, allowing me to build complete and scalable applications.
+              On the front-end side, I specialize in HTML, CSS, and JavaScript frameworks such as React . I’m passionate
+              about creating intuitive user interfaces that provide an exceptional user experience. I pay great
+              attention to detail, ensuring that the websites or applications I develop are responsive, visually
+              appealing, and accessible across different devices and browsers.
+            </p>
+
+            <span class="d-flex mt-3">
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/Ravi_Resume.pdf">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /END About Section -->
+
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projects</h2>
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Destination Search</h3>
+              <div>
+                <p class="mb-4">
+                  When a value is provided in the search input, only the destinations whose names contain the value
+                  provided in
+                  the search input should be displayed irrespective of the case <br>
+                  <b>Technologies used: HTML, CSS, JavaScript, React.js</b>
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://ravidestinaion0.ccbp.tech/">
+                See Live
+              </a>
+              <!-- <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
+                Source Code
+              </a> -->
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="#!" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/destination_img.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Todos Application</h3>
+              <div>
+                <p class="mb-4">
+                  A comprehensive todo management tool designed to enhance productivity. <br>
+                  ● User-friendly interface with HTML, CSS, and Bootstrap for ease of use. <br>
+                  ● Effortless task management through JavaScript-based CRUD operations with dynamic UI updates. <br>
+                  ● Your tasks are always safe with local storage methods to ensure task persistence. <br>
+                  <b>Technologies used: HTML, CSS, JS, Bootstrap</b>
+
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://ravitodolist0.ccbp.tech/">
+                See Live
+              </a>
+
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="#!" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/todo_task.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Countries Search</h3>
+              <div>
+                <p class="mb-4">
+                  Developed responsive countries search application which shows all countries and respective population
+                  in the
+                  world. We can also search by specific country. <br>
+                  ● Fetched countries list from server asynchronously using fetch GET HTTP API call and implemented
+                  responsiveness using Bootstrap grid system and CSS box model. <br>
+                  ● Implemented local search functionality by using input element, JavaScript event listeners & filtered
+                  countries using Array filter method. <br> <b>Technologies used: HTML, CSS, JS, REST API Calls,
+                    Bootstrap</b>
+
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://ravicountries0.ccbp.tech/">
+                See Live
+              </a>
+              
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="#!" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/countries.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+  <!-- /END Projects Section -->
+
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-wrapper load-hidden">
+        <form action="#" class="contact__form">
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="name">Name</label>
+            <input
+              required
+              placeholder="Enter Your Name"
+              type="text"
+              class="contact__form-input"
+              name="name"
+              id="name"
+            />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="email">Email</label>
+            <input
+              required
+              placeholder="Enter Your Email"
+              type="text"
+              class="contact__form-input"
+              name="email"
+              id="email"
+            />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="message">Message</label>
+            <textarea
+              required
+              cols="30"
+              rows="10"
+              class="contact__form-input"
+              placeholder="Enter Your Message"
+              name="message"
+              id="message"
+            ></textarea>
+          </div>
+          
+        </form>
+        <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:karinguravi3077@email.com">Submit</a>
+      </div>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a rel="noreferrer" href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a rel="noreferrer" href="https://twitter.com/RAVIKaringu1" target="_blank">
+          <i class="fa fa-twitter fa-inverse"></i>
+        </a>
+        <a rel="noreferrer" href="https://www.linkedin.com/in/karinguravi307/" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a rel="noreferrer" href="https://github.com/KARINGU-RAVI" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+
+      <hr />
+
+      <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+      <p class="footer__text">
+        © 2024 -  developed by
+        <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank">Karingu Ravi</a>
+      </p>
+
+      
+  <!-- /END Footer Section -->
+
+  <script defer type="module" src="index.js"></script>
+</body>
+
+</html>
